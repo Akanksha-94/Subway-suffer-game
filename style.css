@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.game-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #333;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    bottom: 20px;
+    left: 175px;
+    width: 50px;
+    height: 50px;
+    background-color: #FF4500;
+    border-radius: 5px;
+}
+
+.coin {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: gold;
+    border-radius: 50%;
+}
+
+.score-board {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.nav-bar{
+    margin-right: 10%;
+    height: 50px;
+    width: 20%;
+    /* margin: 10px; */
+  
+}
